@@ -60,6 +60,6 @@ public:
 			guess();
 		}
 		print();
-		cout << "\n\t" << ((nTries == maxTries) ? "실패" : "") << endl;
+		cout << "\n\t" << ((nTries == maxTries) ? "실패" : "정답") << endl;
 	}
 };
